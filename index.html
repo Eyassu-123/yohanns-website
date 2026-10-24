@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yohans Alebachew Belay | Law (LLB), Woldia University</title>
+<meta name="description" content="Yohans Alebachew Belay: Bachelor of Laws graduate of Woldia University (CGPA 3.84), student leader, legal aid volunteer and Anti-Corruption Ambassador.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0a1630;--navy2:#10224a;--card:#0f1d3e;--line:#243764;--gold:#d4a937;--gold2:#f0cf75;--text:#e8ecf6;--muted:#9fb0d3}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font-family:Manrope,system-ui,Segoe UI,Arial,sans-serif;background:var(--navy);color:var(--text);line-height:1.7;font-size:17px}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.2;font-weight:700}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:3px solid var(--gold2);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+section{padding:84px 0}
+.alt{background:var(--navy2)}
+section h2{font-size:clamp(1.9rem,4vw,2.5rem);margin-bottom:34px}
+section h2::after{content:"";display:block;width:56px;height:4px;background:var(--gold);margin-top:12px;border-radius:2px}
+.sub{color:var(--muted);margin:-18px 0 30px}
+
+nav{position:sticky;top:0;z-index:20;background:rgba(10,22,48,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:62px;flex-wrap:wrap}
+.logo{font-family:Fraunces,Georgia,serif;font-weight:700;font-size:1.25rem;color:var(--gold2)}
+nav ul{display:flex;gap:20px;list-style:none;flex-wrap:wrap}
+nav ul a{color:var(--muted);font-size:.95rem;font-weight:500}
+nav ul a:hover{color:var(--gold2)}
+
+.btn{display:inline-block;padding:12px 24px;border-radius:8px;font-weight:700;border:2px solid var(--gold);transition:background .2s,color .2s}
+.btn.solid{background:var(--gold);color:var(--navy)}
+.btn.solid:hover{background:var(--gold2);border-color:var(--gold2)}
+.btn.ghost{color:var(--gold2)}
+.btn.ghost:hover{background:var(--gold);color:var(--navy)}
+
+.hero{padding:90px 0 60px;background:radial-gradient(1000px 500px at 85% 0%,var(--navy2),transparent 70%)}
+.hero .wrap{display:grid;grid-template-columns:1.3fr 1fr;gap:48px;align-items:center}
+.hero small{color:var(--gold2);font-weight:700}
+.hero h1{font-size:clamp(2.4rem,6.2vw,4.2rem);margin:10px 0 18px}
+.hero p{color:var(--muted);max-width:52ch;margin-bottom:28px;font-size:1.1rem}
+.btns{display:flex;gap:14px;flex-wrap:wrap}
+.photo{width:min(320px,80%);aspect-ratio:1;margin:0 auto;border-radius:50%;border:4px solid var(--gold);padding:8px}
+.photo .in{width:100%;height:100%;border-radius:50%;background:var(--navy2);display:grid;place-items:center;overflow:hidden;position:relative}
+.photo .ini{font-family:Fraunces,Georgia,serif;font-size:5.5rem;color:var(--gold2);font-weight:700}
+.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:26px}
+.card h3{font-size:1.15rem;margin-bottom:12px}
+
+.record{padding:20px 0 70px}
+.record h2{font-size:1.6rem;margin-bottom:22px}
+.record h2::after{display:none}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:18px}
+.stat{text-align:center;padding:22px 12px}
+.stat b{display:block;font-family:Fraunces,Georgia,serif;font-size:2.4rem;color:var(--gold2);line-height:1.1}
+.stat span{color:var(--muted);font-size:.93rem}
+.banner{display:flex;gap:18px;align-items:center;border-color:var(--gold)}
+.banner .medal{font-size:2.8rem}
+.banner h3{margin:0 0 4px}
+.banner p{color:var(--muted);font-size:.97rem}
+
+.about p{color:var(--muted);max-width:68ch;margin-bottom:16px}
+.about blockquote{border-left:4px solid var(--gold);padding:6px 0 6px 18px;margin:26px 0;font-family:Fraunces,Georgia,serif;font-size:1.25rem;max-width:60ch}
+.about blockquote span{display:block;font-family:Manrope,system-ui,Segoe UI,Arial,sans-serif;font-size:.9rem;color:var(--muted);margin-top:6px}
+.feat{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:30px 0}
+.feat .ic{font-size:1.9rem}
+.feat h3{font-size:1.05rem;margin:6px 0}
+.feat p{margin:0;font-size:.93rem}
+.open h3{font-size:1.05rem;margin-bottom:12px}
+.tags{display:flex;flex-wrap:wrap;gap:10px}
+.tags li{list-style:none;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 16px;font-size:.93rem}
+
+.skills{display:grid;grid-template-columns:1.2fr 1fr;gap:24px}
+.skills .stack{display:grid;gap:24px;align-content:start}
+
+.roles{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.roles .card h3{font-size:1.1rem;margin-bottom:4px}
+.roles .when{display:block;color:var(--gold2);font-size:.85rem;font-weight:700;margin-bottom:8px}
+
+.edu{display:grid;gap:20px}
+.edu .card{display:grid;grid-template-columns:1fr auto;gap:10px 24px;align-items:start}
+.edu h3{font-size:1.3rem;margin:0}
+.meta{color:var(--muted);font-size:.95rem}
+.gpa{text-align:right}
+.gpa b{display:block;font-family:Fraunces,Georgia,serif;font-size:2.2rem;color:var(--gold2);line-height:1}
+.gpa span{color:var(--muted);font-size:.85rem}
+.edu .note{grid-column:1/-1;border-top:1px solid var(--line);padding-top:12px;font-size:.97rem}
+
+.awards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin-bottom:30px}
+.award .medal{font-size:2.2rem}
+.award h3{margin-top:6px}
+.award ul{list-style:none;color:var(--muted);font-size:.95rem}
+.award li{padding:3px 0}
+.award a{color:var(--gold2);text-decoration:underline;text-underline-offset:3px}
+
+.letters{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:20px;margin-bottom:30px}
+.letter .top{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:6px}
+.letter .top h3{margin:0}
+.letter blockquote{border-left:4px solid var(--gold);padding-left:18px;margin:16px 0;font-family:Fraunces,Georgia,serif;font-size:1.1rem}
+.letter ul{margin:0 0 6px 20px;color:var(--muted);font-size:.95rem}
+
+.contact{text-align:center}
+.contact h2::after{margin-left:auto;margin-right:auto}
+.cgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin-bottom:30px;text-align:left}
+.cgrid a{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px;display:block;overflow-wrap:anywhere}
+.cgrid a:hover{border-color:var(--gold)}
+.cgrid small{display:block;color:var(--gold2);font-weight:700}
+footer{padding:26px 0;text-align:center;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
+
+@media (max-width:760px){
+  section{padding:60px 0}
+  .hero .wrap,.skills{grid-template-columns:1fr}
+  .hero{padding-top:50px;text-align:center}
+  .hero p{margin-left:auto;margin-right:auto}
+  .btns{justify-content:center}
+  .photo{order:-1;width:min(240px,70%)}
+  .stats{grid-template-columns:1fr}
+  .roles{grid-template-columns:1fr}
+  .edu .card{grid-template-columns:1fr}
+  .gpa{text-align:left}
+  .banner{flex-direction:column;text-align:center}
+  nav ul{gap:12px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="logo" href="#home">Yohans A.</a>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#letters">Letters</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <div class="wrap">
+    <div>
+      <small>Hello, I’m</small>
+      <h1>Yohans Alebachew Belay</h1>
+      <p>Bachelor of Laws graduate of Woldia University with a 3.84 CGPA. Former Head of Public Relations and Head of Discipline Affairs in the Students' Union, seeking legal roles, internships, fellowships and postgraduate study.</p>
+      <div class="btns">
+        <a class="btn solid" href="#contact">Get in touch</a>
+        <a class="btn ghost" href="certificates/certificates.pdf" target="_blank" rel="noopener">View certificates</a>
+      </div>
+    </div>
+    <div class="photo">
+      <div class="in">
+        <span class="ini">YA</span>
+        <img src="photo.jpg" alt="Portrait of Yohans Alebachew Belay in graduation cap and gown" onerror="this.remove()">
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="record">
+  <div class="wrap">
+    <h2>Academic record</h2>
+    <div class="stats">
+      <div class="card stat"><b data-to="3.84" data-dec="2">0</b><span>LLB CGPA out of 4.00</span></div>
+      <div class="card stat"><b data-to="82" data-suf="%">0</b><span>National Law Exit Examination, June 2026</span></div>
+      <div class="card stat"><b data-to="91">0</b><span>Externship score</span></div>
+    </div>
+    <div class="card banner">
+      <div class="medal">🎓</div>
+      <div>
+        <h3>Bachelor of Laws, Woldia University</h3>
+        <p>Graduated June 25, 2026. Final-year research project graded A+, with three letters of recommendation from university leaders.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="about alt" id="about">
+  <div class="wrap">
+    <h2>About me</h2>
+    <p>I am Yohans Alebachew Belay, a law graduate from the School of Law at Woldia University. I completed my Bachelor of Laws on June 25, 2026 with a cumulative GPA of 3.84 out of 4.00, passed the National Law Exit Examination with 82%, and scored 91 in my externship.</p>
+    <p>Alongside my studies I served as Head of Discipline Affairs and then Head of Public Relations in the Students' Union, sat on the Students' Discipline Committee, joined the board of the university's community radio station, and worked as an Anti-Corruption Ambassador. I also volunteered as a legal aid provider at the Habru Free Legal Aid Center.</p>
+    <blockquote>I rank him among the top students of his cohort.<span>Tesfaye Ayalew Teffera, Dean, School of Law, Woldia University</span></blockquote>
+    <div class="feat">
+      <div class="card"><div class="ic">⚖️</div><h3>Legal aid and advocacy</h3><p class="meta">Free legal counselling, court representation and legal awareness for the community.</p></div>
+      <div class="card"><div class="ic">🏛️</div><h3>Student leadership</h3><p class="meta">Discipline, public relations and dispute mediation in the Students' Union.</p></div>
+      <div class="card"><div class="ic">🛡️</div><h3>Ethics and integrity</h3><p class="meta">Anti-Corruption Ambassador and member of the Ethics and Anti-Corruption Club.</p></div>
+      <div class="card"><div class="ic">💻</div><h3>Digital skills</h3><p class="meta">Udacity programs in programming, data analysis, AI and Android development.</p></div>
+    </div>
+    <div class="open">
+      <h3>Open to opportunities in</h3>
+      <ul class="tags">
+        <li>Legal Positions</li><li>Corporate Roles</li><li>Internships</li><li>Fellowships</li><li>Postgraduate Study</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">
+        <h3>Legal practice</h3>
+        <ul class="tags">
+          <li>Legal counselling</li><li>Court representation</li><li>Legal research</li><li>Moot court facilitation</li><li>Human rights advocacy</li><li>International law</li><li>Dispute mediation</li><li>Legal awareness campaigns</li>
+        </ul>
+      </div>
+      <div class="stack">
+        <div class="card">
+          <h3>Leadership and communication</h3>
+          <ul class="tags">
+            <li>Conflict resolution</li><li>Public relations</li><li>Organizational management</li><li>Public speaking and media</li><li>Teamwork</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Digital skills</h3>
+          <ul class="tags">
+            <li>Programming fundamentals</li><li>Data analysis</li><li>AI fundamentals</li><li>Android development</li><li>Microsoft Teams</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="experience">
+  <div class="wrap">
+    <h2>Experience and service</h2>
+    <p class="sub">Roles held at Woldia University and in the community.</p>
+    <div class="roles">
+      <div class="card"><h3>Head of Public Relations Affairs</h3><span class="when">2025 to 2026</span><p class="meta">Woldia University Students' Union.</p></div>
+      <div class="card"><h3>Head of Discipline Affairs</h3><span class="when">2024 to 2025</span><p class="meta">Woldia University Students' Union.</p></div>
+      <div class="card"><h3>Member, Students' Discipline Committee</h3><span class="when">2024 to 2026</span><p class="meta">Central committee of Woldia University.</p></div>
+      <div class="card"><h3>Legal Aid Provider and Student Volunteer</h3><span class="when">Habru Free Legal Aid Center</span><p class="meta">Free legal counselling, court representation and legal awareness for the community.</p></div>
+      <div class="card"><h3>Facilitator, inter-batch Moot Court</h3><span class="when">February 21 to 22, 2025</span><p class="meta">Theme: the right to access a sea outlet under international law.</p></div>
+      <div class="card"><h3>Anti-Corruption Ambassador and PR Executive</h3><span class="when">Ethics and Anti-Corruption Directorate</span><p class="meta">Led peer awareness campaigns on transparency. Member of the Ethics and Anti-Corruption Club.</p></div>
+      <div class="card"><h3>Board Member, Woldia University Community Radio</h3><span class="when">FM 89.2, elected 2025/26</span><p class="meta">One of seven board members of the station.</p></div>
+      <div class="card"><h3>Founding Member, Human Rights Club</h3><span class="when">Woldia University</span><p class="meta">Helped lay the foundation for human rights advocacy on campus.</p></div>
+      <div class="card"><h3>National Voluntary Community Service</h3><span class="when">Summer 2024</span><p class="meta">Five days of training and 25 days of service, organized by the Ministry of Peace and the Ministry of Education.</p></div>
+      <div class="card"><h3>Interim leadership committee member</h3><span class="when">Law Students' Association</span><p class="meta">Served from the association's founding in early 2024.</p></div>
+      <div class="card"><h3>Cafeteria Quality Assurance Officer</h3><span class="when">Woldia University</span><p class="meta">Institutional role.</p></div>
+      <div class="card"><h3>Grade 12 Exam Supportive Committee</h3><span class="when">Woldia University</span><p class="meta">Supported the national Grade 12 examination.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap">
+    <h2>Education</h2>
+    <div class="edu">
+      <div class="card">
+        <div><h3>Bachelor of Laws (LLB)</h3><p class="meta">Woldia University, School of Law. Graduated June 25, 2026.</p></div>
+        <div class="gpa"><b>3.84</b><span>CGPA out of 4.00</span></div>
+        <p class="note">📚 Exit examination 82% &nbsp;|&nbsp; Externship 91 &nbsp;|&nbsp; Research project A+</p>
+      </div>
+    </div>
+    <p class="meta" style="margin-top:16px">Temporary degree certificate issued by the Office of the Registrar. The original diploma and transcript follow once the cost-sharing process is complete.</p>
+  </div>
+</section>
+
+<section class="alt" id="certificates">
+  <div class="wrap">
+    <h2>Certificates</h2>
+    <p class="sub">Training and programs completed alongside the degree.</p>
+    <div class="awards">
+      <div class="card award"><div class="medal">🏛️</div><h3>Leadership</h3>
+        <ul>
+          <li>Advanced Leadership Practice for University Student Union Executives, Bahir Dar University (NELA), July 2026</li>
+          <li>Leadership, conflict resolution and communication, Woldia University, May 2025</li>
+        </ul>
+      </div>
+      <div class="card award"><div class="medal">💼</div><h3>Employability and enterprise</h3>
+        <ul>
+          <li>Employability Skills and Job Readiness, Dereja with Mastercard Foundation, January 2025</li>
+          <li>Mastering the Business Model Canvas, Venture Meda, January 2026</li>
+          <li>Internet Safety in Ethiopia, Venture Meda, January 2026</li>
+        </ul>
+      </div>
+      <div class="card award"><div class="medal">💻</div><h3>Udacity Nanodegree programs</h3>
+        <ul>
+          <li>Programming Fundamentals, <a href="https://confirm.udacity.com/MHZHF7ZP" target="_blank" rel="noopener">verify</a></li>
+          <li>Data Analysis Fundamentals, <a href="https://confirm.udacity.com/PF5MUAR2" target="_blank" rel="noopener">verify</a></li>
+          <li>Artificial Intelligence Fundamentals, <a href="https://confirm.udacity.com/DSDRPAMG" target="_blank" rel="noopener">verify</a></li>
+          <li>Android Developer Fundamentals, <a href="https://confirm.udacity.com/HN2Z4NG6" target="_blank" rel="noopener">verify</a></li>
+        </ul>
+      </div>
+      <div class="card award"><div class="medal">🎓</div><h3>e-SHE, Ministry of Education</h3>
+        <ul>
+          <li>How to Take a Course</li>
+          <li>How to Study Effectively</li>
+          <li>How to Evaluate Resources</li>
+          <li>Academic Integrity</li>
+          <li>Keeping Yourself Safe Online</li>
+          <li>Video Conferencing with Teams</li>
+          <li>Strategies for Successful Online Learning</li>
+          <li>Set Goals to Manage Your Time</li>
+        </ul>
+      </div>
+      <div class="card award"><div class="medal">⚖️</div><h3>School of Law recognitions</h3>
+        <ul>
+          <li>Certificate of Appreciation, Free Legal Aid Provider and Student Volunteer</li>
+          <li>Certificate of Appreciation, Founding Member of the Human Rights Club</li>
+          <li>Certificate of Appreciation, community service initiatives</li>
+          <li>Certificate of Recognition, Moot Court facilitation</li>
+        </ul>
+      </div>
+      <div class="card award"><div class="medal">🏅</div><h3>Students' Union and national service</h3>
+        <ul>
+          <li>Head of Public Relations Affairs, 2025 to 2026</li>
+          <li>Head of Discipline Affairs, 2024 to 2025</li>
+          <li>Member, Students' Discipline Committee, 2024 to 2026</li>
+          <li>National Voluntary Community Service, 2024</li>
+        </ul>
+      </div>
+    </div>
+    <a class="btn ghost" href="certificates/certificates.pdf" target="_blank" rel="noopener">📄 View all certificates</a>
+  </div>
+</section>
+
+<section id="letters">
+  <div class="wrap">
+    <h2>Recommendation letters</h2>
+    <p class="sub">Three letters from Woldia University, written in June and July 2026.</p>
+    <div class="letters">
+      <div class="card letter">
+        <div class="top"><h3>Tesfaye Ayalew Teffera</h3><span class="meta">June 29, 2026</span></div>
+        <p class="meta">Dean, School of Law, Woldia University</p>
+        <blockquote>I rank him among the top students of his cohort.</blockquote>
+        <ul>
+          <li>3.84 CGPA, 82% on the exit examination, A+ research project</li>
+          <li>Recommended for any legal position, internship, fellowship or academic program</li>
+        </ul>
+      </div>
+      <div class="card letter">
+        <div class="top"><h3>Belay Mengiste Addisu (PhD)</h3><span class="meta">June 29, 2026</span></div>
+        <p class="meta">Vice President for Administration and Business Development</p>
+        <blockquote>Placing him among the finest student leaders of our university community.</blockquote>
+        <ul>
+          <li>Students' Union roles, discipline committee and radio station board</li>
+          <li>Trained in leadership and conflict resolution mechanisms</li>
+        </ul>
+      </div>
+      <div class="card letter">
+        <div class="top"><h3>Mulugeta Asmare</h3><span class="meta">July 3, 2026</span></div>
+        <p class="meta">Executive, Ethics and Monitoring Office, Woldia University</p>
+        <blockquote>A rare combination of intellectual maturity, legal acumen, and an unyielding ethical compass.</blockquote>
+        <ul>
+          <li>Organized and led ethics awareness campaigns on campus</li>
+          <li>An eloquent communicator and collaborative team player</li>
+        </ul>
+      </div>
+    </div>
+    <a class="btn ghost" href="recommendations/letters.pdf" target="_blank" rel="noopener">📄 View original documents</a>
+    <p class="meta" style="margin-top:16px">Original signed copies available upon request.</p>
+  </div>
+</section>
+
+<section class="contact alt" id="contact">
+  <div class="wrap">
+    <h2>Get in touch</h2>
+    <p class="sub">Signed letters and original certificates are available on request.</p>
+    <!-- EDIT THIS SECTION: remove the comment markers and add the real details
+    <div class="cgrid">
+      <a href="mailto:EMAIL@example.com"><small>📧 Email</small>EMAIL@example.com</a>
+      <a href="tel:+251XXXXXXXXX"><small>📱 Phone</small>+251 XXX XXX XXX</a>
+      <a href="https://t.me/USERNAME" target="_blank" rel="noopener"><small>✈️ Telegram</small>@USERNAME</a>
+    </div>
+    -->
+  </div>
+</section>
+
+<footer>© <span id="yr">2026</span> Yohans Alebachew Belay. Law, Woldia University.</footer>
+
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+var io = new IntersectionObserver(function(entries){
+  entries.forEach(function(e){
+    if(!e.isIntersecting) return;
+    var el = e.target; io.unobserve(el);
+    var to = parseFloat(el.dataset.to), dec = parseInt(el.dataset.dec || 0), suf = el.dataset.suf || '', t0 = null;
+    function step(t){
+      if(!t0) t0 = t;
+      var p = Math.min((t - t0) / 1400, 1);
+      el.textContent = (to * p).toFixed(dec) + suf;
+      if(p < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  });
+}, {threshold:.4});
+document.querySelectorAll('[data-to]').forEach(function(el){ io.observe(el); });
+</script>
+</body>
+</html>
